@@ -18,3 +18,30 @@ Este repositório contém os códigos e a metodologia aplicados na dissertação
 # Ferramentas Utilizadas:
         R/RStudio: Linguagem original da pesquisa (pacotes caret, tidyverse, randomForest, etc.).
         Python: Tradução dos modelos para fins de portabilidade.
+
+        # Determinantes da Mortalidade Adulta nas Microrregiões Brasileiras (2010)
+
+Este projeto é baseado na dissertação de mestrado de **Natália Martins Arruda** (UNICAMP, 2019), que utiliza modelos de **Machine Learning** para investigar os fatores socioeconômicos e de saúde que influenciam a probabilidade de morte adulta (15 a 60 anos) no Brasil.
+
+## 📌 Resumo do Projeto
+O objetivo central foi identificar quais fatores mais impactam a mortalidade adulta em nível de microrregiões. Foram utilizados dados do Censo 2010 e do DATASUS, com correção de sub-registros via método TOPALS.
+
+### Principais Variáveis Preditoras:
+* Taxas de mortalidade por causas externas.
+* Taxa de desemprego.
+* Cobertura de vacinação.
+
+## 🛠️ Modelos Utilizados
+Foram comparados quatro algoritmos de aprendizado supervisionado:
+1. **Support Vector Machine (SVM)** - Apresentou o melhor desempenho geral.
+2. **Random Forest (RF)**.
+3. **Extreme Gradient Boosting (XGBoost)**.
+4. **Naive Bayes (NB)**.
+
+## 🚀 Como Executar
+O projeto contém implementações em **R** (original) e **Python** (tradução).
+
+### Python
+```bash
+pip install -r requirements.txt
+python src/model_python.py
