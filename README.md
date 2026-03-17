@@ -3,9 +3,9 @@ Análise dos determinantes da mortalidade adulta nas microrregiões brasileiras 
 
 Este repositório contém os códigos e a metodologia aplicados na dissertação de mestrado de Natália Martins Arruda (PPG-Demografia/UNICAMP). O objetivo central do estudo foi investigar as relações entre fatores socioeconômicos, estruturais, contextuais e de saúde com a probabilidade de morte adulta (15 a 60 anos) no Brasil.
 
-Destaques Técnicos:
-    Correção de Dados: Utilização do método TOPALS com estimação bayesiana para correção de sub-registros de óbitos em pequenas áreas (microrregiões).
-    Modelagem Supervisionada: Comparação de performance entre quatro algoritmos:
+# Destaques Técnicos:
+    - Correção de Dados: Utilização do método TOPALS com estimação bayesiana para correção de sub-registros de óbitos em pequenas áreas (microrregiões).
+    - Modelagem Supervisionada: Comparação de performance entre quatro algoritmos:
       Random Forest.
       Extreme Gradient Boosting (XGBoost/Extreme Boosted Trees).
       Support Vector Machine (SVM).
@@ -15,6 +15,6 @@ Destaques Técnicos:
             Taxas de mortalidade por causas externas.
             Taxa de desemprego.
             Cobertura de vacinação.
-Ferramentas Utilizadas:
+# Ferramentas Utilizadas:
         R/RStudio: Linguagem original da pesquisa (pacotes caret, tidyverse, randomForest, etc.).
         Python: Tradução dos modelos para fins de portabilidade.
